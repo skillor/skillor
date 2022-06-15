@@ -62,7 +62,9 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_time_range: short
           plugin_music_top_type: tracks
-          plugin_music_user: 11173189914
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
           plugin_skyline: yes
           plugin_skyline_frames: 60
           plugin_skyline_quality: 0.5
