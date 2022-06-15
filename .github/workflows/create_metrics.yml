@@ -39,7 +39,7 @@ jobs:
           plugin_code_load: 400
           plugin_code_visibility: public
           plugin_followup: yes
-          plugin_followup_sections: repositories
+          plugin_followup_sections: user
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
