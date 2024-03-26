@@ -59,13 +59,6 @@ jobs:
           plugin_languages_skipped: skillor/goldberg_emulator
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_music: yes
-          plugin_music_limit: 4
-          plugin_music_mode: playlist
-          plugin_music_playlist: https://open.spotify.com/embed/playlist/37i9dQZEVXcTqIArW1nuaO
-          plugin_music_provider: spotify
-          plugin_music_time_range: short
-          plugin_music_top_type: tracks
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
