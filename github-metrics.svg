@@ -327,7 +327,7 @@
                     <rect mask="url(#languages-bar)" x="377.86365561977016" y="0" width="45.51425006898643" height="8" fill="#e34c26"/>
                     <rect mask="url(#languages-bar)" x="423.3779056887566" y="0" width="30.619051135458246" height="8" fill="#b07219"/>
                     <rect mask="url(#languages-bar)" x="453.9969568242148" y="0" width="3.777657726285188" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="457.7746145505" y="0" width="1.873185462714295" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="457.7746145505" y="0" width="1.873185462714295" height="8" fill="#663399"/>
                     <rect mask="url(#languages-bar)" x="459.6478000132143" y="0" width="0.352199986785699" height="8" fill="#384d54"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
@@ -369,7 +369,7 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#563d7c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#663399" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         CSS
                     </div>
@@ -414,7 +414,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="1327.2133333333334 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="1327.3166666666666 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -436,7 +436,7 @@
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 13844 times</div>
+                                <div class="text">Repositories have been deployed 13845 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -581,7 +581,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 682k out of 150m users</span>
+                                    <span class="gh">ranked 682k out of 143m users</span>
                                 </div>
                                 <div class="text">Published 53 public repositories</div>
                             </div>
@@ -739,7 +739,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 2.22m out of 150m users</span>
+                                    <span class="gh">ranked 2.22m out of 143m users</span>
                                 </div>
                                 <div class="text">Followed by 7 users</div>
                             </div>
@@ -929,7 +929,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 5.47m out of 230m repositories</span>
+                                    <span class="gh">ranked 5.47m out of 196m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 1 time</div>
                             </div>
@@ -999,7 +999,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 3 Dec 2024, 13:49:24 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 3 Dec 2024, 14:33:24 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
