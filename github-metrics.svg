@@ -418,7 +418,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="1623.6766666666667 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="1623.7800000000002 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -440,7 +440,7 @@
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 16713 times</div>
+                                <div class="text">Repositories have been deployed 16714 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -981,7 +981,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">ffde2890</span>
-                            <span class="code">src/app/shared/api/chat/models/conversation-rx.model.ts</span>
+                            <span class="code">src/app/shared/api/chat/models/message-rx.model.ts</span>
                             <span class="code">
                                 <span class="snippet additions">++11</span>
                                 <span class="snippet deletions">--0</span>
@@ -992,14 +992,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,11 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import { ChatMessageRx } from "./message-rx.model";<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">export interface ChatConversationRx {<br /></span><span class="token prefix inserted">+</span><span class="token line"> userImage: string,<br /></span><span class="token prefix inserted">+</span><span class="token line"> userName: string,<br /></span><span class="token prefix inserted">+</span><span class="token line"> messages: ChatMessageRx[], // latest message first in array<br /></span><span class="token prefix inserted">+</span><span class="token line">}<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">export interface ChatConversationsRx {<br /></span><span class="token prefix inserted">+</span><span class="token line"> [conversationId: string]: ChatConversationRx<br /></span><span class="token prefix inserted">+</span><span class="token line">}</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,11 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">export interface ChatMessageRx {<br /></span><span class="token prefix inserted">+</span><span class="token line">id: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">senderId: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">receiverId: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">senderName: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">receiverName: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">content: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">status: 'SENT' | 'READ',<br /></span><span class="token prefix inserted">+</span><span class="token line">statusTimestamp: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">createdTimestamp: string,<br /></span><span class="token prefix inserted">+</span><span class="token line">}</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 8 Apr 2025, 11:35:09 (timezone Europe/Berlin) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 8 Apr 2025, 12:35:10 (timezone Europe/Berlin) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
